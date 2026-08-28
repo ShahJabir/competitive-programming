@@ -1,36 +1,28 @@
 # 🧠 Competitive Programming
 
-> **A structured journey through algorithms, data structures, problem solving, and competitive programming with C++.**
+> **A structured journey through Data Structures, Algorithms, problem solving, and Competitive Programming with C++.**
 
-This repository documents my journey into **Competitive Programming (CP)** — from revising C++ and learning the STL to studying algorithms, data structures, mathematical techniques, and solving problems under constraints.
+This repository documents my journey into **Competitive Programming (CP)**.
+
+I am starting CP without previous competitive-programming experience, building on my existing knowledge of C++ and gradually developing the **Data Structures & Algorithms, algorithmic thinking, mathematical reasoning, and problem-solving skills** required for competitive programming.
 
 This is not intended to be a collection of copied solutions.
 
-It is a **learning archive**: concepts I study, implementations I build, problems I solve, mistakes I make, and patterns I discover along the way.
+It is a learning archive containing concepts, implementations, problems, contest experiences, mistakes, patterns, and lessons learned throughout the journey.
 
 ---
 
-## 🎯 Why This Repository Exists
+# 🎯 Purpose
 
-I am starting Competitive Programming with a basic foundation in C++ and Java, but with limited experience in:
+The purpose of this repository is to develop the ability to solve unfamiliar problems efficiently.
 
-* Data Structures & Algorithms
-* Competitive Programming
-* C++ STL
-* Algorithmic problem solving
-* Contest environments
+The focus is not simply:
 
-The goal of this repository is to develop those skills systematically.
+> "How many problems can I solve?"
 
-My primary language for CP is **C++** because of its performance, concise syntax, and especially the Standard Template Library (STL), which provides the containers and algorithms commonly used in competitive programming.
+but:
 
-Java remains a secondary language for maintaining general programming fluency and occasionally reimplementing selected problems.
-
----
-
-## 🧭 Learning Philosophy
-
-I am not trying to memorize hundreds of algorithms.
+> **"How well can I reason about a problem, identify its structure, choose an approach, and implement it correctly under constraints?"**
 
 The learning process is:
 
@@ -58,171 +50,168 @@ Upsolve
 Repeat
 ```
 
-For each important topic, I want to understand:
+---
 
-* What problem does it solve?
-* Why does it work?
-* When should I use it?
-* What are its constraints?
-* What is its time complexity?
-* What are its edge cases?
-* What common mistakes should I avoid?
+# 🧩 Prerequisites
 
-The ultimate goal is not merely to recognize algorithms.
+This repository assumes a working knowledge of **C++**.
 
-> **The goal is to develop the ability to derive useful approaches from unfamiliar problems.**
+The C++ language itself is studied separately in:
+
+**→ [C++ Journey](https://github.com/ShahJabir/cpp-journey)**
+
+That repository covers areas such as:
+
+* C++ fundamentals
+* pointers and memory
+* OOP
+* templates
+* modern C++
+* Standard Library / STL
+* C++ tooling
+* CMake
+* debugging
+* systems-level concepts
+
+Therefore, this repository does **not** restart from basic C++ syntax.
+
+Instead, the journey begins with **Data Structures & Algorithms**.
 
 ---
 
 # 🗺️ Roadmap
 
-The complete learning roadmap is maintained separately:
-
-**→ [View the Competitive Programming Roadmap](ROADMAP.md)**
-
-The current progression is approximately:
+The progression will broadly follow:
 
 ```text
-C++ Revision
-      ↓
-C++ STL
-      ↓
+C++ + STL
+     ↓
 Complexity Analysis
-      ↓
-Fundamental DSA
-      ↓
-Sorting & Searching
-      ↓
-Two Pointers / Sliding Window
-      ↓
+     ↓
+DSA Foundations
+     ↓
+Arrays & Strings
+     ↓
+Searching & Sorting
+     ↓
+Prefix Sums
+     ↓
+Two Pointers
+     ↓
+Sliding Window
+     ↓
+Hashing
+     ↓
 Recursion & Backtracking
-      ↓
+     ↓
 Mathematics & Number Theory
-      ↓
+     ↓
 Bit Manipulation
-      ↓
+     ↓
 Greedy Algorithms
-      ↓
-Graph Algorithms
-      ↓
+     ↓
+Graphs
+     ↓
 Trees
-      ↓
+     ↓
 Dynamic Programming
-      ↓
+     ↓
 Advanced Data Structures
-      ↓
+     ↓
+Advanced Algorithms
+     ↓
 Contest Practice
 ```
 
-The roadmap is intentionally long-term.
-
-I am treating Competitive Programming as a **secondary priority**, alongside my studies, software-engineering learning, and professional projects.
-
-Consistency matters more than speed.
+The roadmap is long-term and will evolve according to my progress.
 
 ---
 
-# 📚 What I'm Learning
+# 🧠 Core Areas
 
-## C++ for Competitive Programming
+## Complexity Analysis
 
-Before going deep into algorithms, I am strengthening the C++ features that are important for CP:
-
-* Input / Output
-* Functions
-* References
-* Pointers
-* Arrays
-* Strings
-* Structs
-* Lambdas
-* `auto`
-* Range-based loops
-* Custom comparators
-* Complexity-aware implementation
-
-The broader C++ language and modern C++ ecosystem are explored separately in my [`cpp-journey`](https://github.com/ShahJabir/cpp-journey) repository.
-
----
-
-## STL
-
-STL is a core part of my CP foundation.
+Before learning large numbers of algorithms, I need to understand how to reason about computational complexity.
 
 Topics include:
 
-### Containers
+* Big-O
+* Time complexity
+* Space complexity
+* Best / average / worst case
+* Amortized complexity
+* Complexity of common STL operations
+* Constraint analysis
 
-* `vector`
-* `array`
-* `string`
-* `pair`
-* `tuple`
-* `stack`
-* `queue`
-* `deque`
-* `priority_queue`
-* `set`
-* `multiset`
-* `map`
-* `unordered_map`
-* `unordered_set`
-
-### Algorithms
-
-* `sort`
-* `reverse`
-* `find`
-* `count`
-* `min_element`
-* `max_element`
-* `lower_bound`
-* `upper_bound`
-* `binary_search`
-* `accumulate`
-* `gcd`
-* `lcm`
-
-### Supporting concepts
-
-* Iterators
-* Lambdas
-* Custom comparators
-* Iterator invalidation
-* Container complexity
+A major goal is to learn to look at a problem's constraints and estimate what type of solution is feasible.
 
 ---
 
-# 🧩 Core Topics
+## 🌳 Data Structures
 
-## Fundamentals
+The journey will cover fundamental and advanced data structures.
 
-* Big-O notation
+### Fundamental
+
 * Arrays
 * Strings
-* Frequency counting
-* Hashing
-* Prefix sums
-* Difference arrays
+* Linked Lists
+* Stacks
+* Queues
+* Deques
+* Hash Tables
+* Heaps
+* Trees
+* Graphs
 
-## Searching & Sorting
+### Advanced
 
-* Sorting algorithms
-* Binary search
-* Binary search on answer
-* Two pointers
-* Sliding window
+* Disjoint Set Union
+* Fenwick Tree
+* Segment Tree
+* Sparse Table
+* Trie
+* Coordinate Compression
+* Other structures as required
 
-## Recursion & Backtracking
+For each important data structure, I want to understand:
 
+* How it works
+* How it is implemented
+* What operations it supports
+* Time complexity
+* Space complexity
+* When it should be used
+* Common implementation mistakes
+
+---
+
+# ⚡ Algorithms
+
+Core algorithmic topics include:
+
+* Sorting
+* Binary Search
+* Binary Search on Answer
+* Two Pointers
+* Sliding Window
 * Recursion
-* Subsets
-* Permutations
-* Combinations
 * Backtracking
-* Search-space reduction
+* Divide and Conquer
+* Greedy Algorithms
+* Graph Algorithms
+* Tree Algorithms
+* Dynamic Programming
 
-## Mathematics
+The focus is on understanding the underlying reasoning rather than memorizing implementations.
+
+---
+
+# 🧮 Mathematics
+
+Mathematics is an important component of Competitive Programming.
+
+Topics may include:
 
 * Number theory
 * Prime numbers
@@ -232,42 +221,65 @@ Topics include:
 * Modular arithmetic
 * Fast exponentiation
 * Combinatorics
+* Probability
 * Bit manipulation
+* Mathematical observations
 
-## Greedy Algorithms
+The goal is to recognize when a mathematical property can simplify an algorithmic problem.
 
-* Greedy strategies
-* Sorting + greedy
-* Interval problems
-* Exchange-argument intuition
-* Proving greedy choices
+---
 
-## Graphs
+# 🌐 Graph Algorithms
+
+Graph problems will eventually cover:
 
 * Graph representation
+* Adjacency lists
+* Adjacency matrices
 * DFS
 * BFS
 * Connected components
 * Cycle detection
+* Topological sorting
 * Shortest paths
 * Dijkstra
-* DSU / Union-Find
-* Minimum Spanning Tree
+* Minimum Spanning Trees
+* DSU
 * Kruskal
 * Prim
+* Advanced graph techniques
 
-## Trees
+---
+
+# 🌲 Trees
+
+Tree-related topics include:
 
 * Tree traversal
 * DFS on trees
-* Binary trees
+* Binary Trees
 * Binary Search Trees
 * Tree properties
 * Subtrees
+* Tree depth
+* Lowest Common Ancestor
 * Tree DP
+* Other advanced tree techniques
 
-## Dynamic Programming
+---
 
+# 🧠 Dynamic Programming
+
+Dynamic Programming will be approached progressively.
+
+Topics include:
+
+* What makes a problem suitable for DP
+* State definition
+* Transitions
+* Base cases
+* Memoization
+* Tabulation
 * 1D DP
 * 2D DP
 * Grid DP
@@ -277,258 +289,269 @@ Topics include:
 * LCS
 * Bitmask DP
 * Tree DP
-* Other advanced DP techniques
+* Advanced DP techniques
 
-## Advanced Data Structures
-
-As my CP level progresses:
-
-* Fenwick Tree
-* Segment Tree
-* Sparse Table
-* Coordinate Compression
-* Offline Queries
-* Advanced graph/data-structure techniques
+The primary objective is to learn how to **derive states and transitions**, rather than memorize standard DP patterns.
 
 ---
 
-# 🏆 Problem Sources
+# 🏆 Problem Solving
 
-I will use different platforms for different purposes rather than treating every platform as equivalent.
+For meaningful problems, I will try to document the reasoning process:
 
-| Platform          | Purpose                                  |
-| ----------------- | ---------------------------------------- |
-| **Codeforces**    | Primary competitive-programming platform |
-| **CSES**          | Structured algorithm and DSA practice    |
-| **AtCoder**       | Additional contest practice              |
-| **LeetCode**      | Supplementary DSA and interview practice |
-| **USACO Guide**   | Structured learning roadmap              |
-| **CP-Algorithms** | Algorithm and data-structure reference   |
+```text
+Problem
+   ↓
+Constraints
+   ↓
+Brute Force
+   ↓
+Why It Fails
+   ↓
+Observation
+   ↓
+Optimization
+   ↓
+Algorithm
+   ↓
+Correctness
+   ↓
+Complexity
+   ↓
+Implementation
+   ↓
+Testing
+   ↓
+Lessons Learned
+```
 
-### Codeforces
+When I get stuck, I will try to investigate the problem before immediately looking at an editorial.
 
-My primary CP platform.
+After reading an editorial, I will attempt to reconstruct and implement the solution independently.
+
+---
+
+# 💻 Primary Language
+
+**C++ is the primary language for this repository.**
+
+C++ is particularly suitable for my CP journey because of:
+
+* Excellent performance
+* Concise syntax
+* Rich Standard Library
+* Efficient containers
+* Powerful algorithms
+* Fast input/output
+* Broad competitive-programming support
+* Extensive community and editorial resources
+
+The C++ Standard Library allows me to spend more time solving the actual problem instead of repeatedly implementing basic data structures and utilities.
+
+---
+
+# 🏅 Platforms
+
+Different platforms serve different purposes.
+
+### Codeforces — Primary
 
 Used for:
 
 * Rated contests
+* Practice
 * Virtual contests
-* Timed problem solving
-* Problem difficulty progression
+* Difficulty progression
 * Contest strategy
 * Upsolving
 
-### CSES
+### CSES — Structured Practice
 
-Used for structured practice across algorithms and data structures.
+Used for systematic practice of:
 
-### AtCoder
+* Algorithms
+* Data Structures
+* Graphs
+* Dynamic Programming
+* Mathematics
 
-Used as an additional contest environment, particularly for practicing clean problem solving under time constraints.
+### AtCoder — Additional Contest Practice
 
-### LeetCode
+Used to gain experience with another contest environment and different problem styles.
 
-Used as a **supplementary DSA/interview track**, not as the primary CP platform.
+### LeetCode — Supplementary
 
-There is significant overlap between LeetCode and CP, but CP places greater emphasis on contest conditions, algorithmic discovery, mathematical reasoning, and broader algorithmic techniques.
+Used primarily for:
+
+* DSA practice
+* Interview-oriented problems
+* Reinforcing fundamental patterns
+
+LeetCode is useful for CP, but it is **not the center of this repository**.
 
 ### USACO Guide
 
-Used as a structured curriculum and curated source of tutorials and problems. The guide explicitly supports non-USACO competitive programmers as well.
+Used as a structured learning resource and curated source of tutorials and problems.
 
 ### CP-Algorithms
 
-Used as a technical reference when I need a deeper explanation, proof, implementation detail, or advanced algorithm reference.
+Used as a technical reference for algorithms, mathematics, data structures, implementations, and deeper explanations.
 
 ---
 
-# 📂 Repository Structure
+# 📝 Notes & Mistakes
 
-The repository is organized around **knowledge, algorithms, and problems** rather than simply storing every submission in one directory.
+One of the most valuable parts of this repository will be documenting mistakes.
 
-```text
-competitive-programming/
-│
-├── README.md
-├── ROADMAP.md
-│
-├── cpp/
-│   └── ...
-│
-├── stl/
-│   └── ...
-│
-├── fundamentals/
-│   └── ...
-│
-├── algorithms/
-│   └── ...
-│
-├── mathematics/
-│   └── ...
-│
-├── data-structures/
-│   └── ...
-│
-├── graphs/
-│   └── ...
-│
-├── trees/
-│   └── ...
-│
-├── dynamic-programming/
-│   └── ...
-│
-├── problems/
-│   ├── codeforces/
-│   ├── cses/
-│   ├── atcoder/
-│   ├── leetcode/
-│   └── other/
-│
-├── contests/
-│   ├── codeforces/
-│   ├── atcoder/
-│   └── virtual/
-│
-└── notes/
-    ├── patterns/
-    ├── observations/
-    ├── mistakes/
-    └── problem-solving/
-```
+Examples:
 
-The structure will evolve as the journey progresses.
+* Wrong assumptions
+* Off-by-one errors
+* Integer overflow
+* Incorrect complexity
+* Wrong data structure choice
+* Edge cases
+* Implementation bugs
+* Misunderstood algorithms
+* Contest time-management mistakes
 
-Empty directories will not be created simply for the sake of having a perfect-looking tree.
+The purpose is not to hide mistakes.
+
+> **Mistakes are part of the training data for my future self.**
 
 ---
 
-# 🧠 Problem-Solving Protocol
+# 🏁 Contest Workflow
 
-For problems that require meaningful analysis, I will try to record:
+As my fundamentals improve, contests will become an important part of the journey.
 
-```text
-Problem
-↓
-Constraints
-↓
-Brute Force
-↓
-Why Brute Force Fails
-↓
-Observation
-↓
-Algorithm
-↓
-Correctness / Reasoning
-↓
-Complexity
-↓
-Implementation
-↓
-Testing
-↓
-What I Learned
-```
-
-When I get stuck, I will first attempt to solve the problem independently before looking at hints or editorials.
-
-After reading an editorial, the goal is to **close it and implement the solution independently**.
-
----
-
-# 🏁 Contest Strategy
-
-Competitive programming is not only about knowing algorithms.
-
-It also requires:
-
-* Time management
-* Reading constraints quickly
-* Identifying problem difficulty
-* Choosing which problem to solve first
-* Avoiding unnecessary wrong submissions
-* Debugging under pressure
-* Recognizing familiar patterns
-* Upsolving after contests
-
-The progression will therefore include:
+The workflow will gradually become:
 
 ```text
 Practice
    ↓
-Mini contests
+Short Timed Sessions
    ↓
-Official contests
+Official Contests
    ↓
-Virtual contests
+Virtual Contests
    ↓
-Upsolving
+Upsolve
    ↓
-Contest analysis
+Analyze Mistakes
+   ↓
+Update Notes
+   ↓
+Practice Weak Areas
 ```
+
+Contest rating is useful feedback, but it is not the only measure of progress.
 
 ---
 
 # 📈 Progress
 
-Progress will be measured using more than rating.
-
-Important metrics include:
+Progress will be measured through:
 
 * Topics learned
-* Problems solved
+* Problems attempted
 * Problems solved independently
-* Contest performance
+* Problems solved after hints
 * Problems upsolved
-* Recurring mistakes
-* Algorithms recognized
-* Algorithms derived independently
+* Contest performance
+* Rating
 * Implementation speed
-* Understanding of complexity
+* Problem recognition
+* Ability to derive algorithms
+* Recurring mistakes
 
-Rating is a useful measurement.
+The ultimate goal is not a number.
 
-It is not the entire objective.
-
-> **The scoreboard is the rating. The actual skill is the thinking.**
-
----
-
-# 📝 Notes
-
-The `notes/` directory is for things that are worth remembering beyond a single problem.
-
-Examples:
-
-* Common patterns
-* Interesting observations
-* Common mistakes
-* Complexity tricks
-* Contest lessons
-* Algorithm-selection heuristics
-* Implementation pitfalls
-
-This section is intentionally personal.
-
-It represents what I have learned rather than attempting to become another generic CP encyclopedia.
+> **The goal is stronger algorithmic thinking.**
 
 ---
 
-# 📊 Long-Term Goal
+# 🔗 Relationship With `cpp-journey`
 
-The first major goal is to build a strong foundation rather than chase a specific rating.
+These repositories intentionally have different purposes.
 
-By the end of the first year, I want to be comfortable with:
+### `cpp-journey`
+
+**Learn C++.**
 
 ```text
-C++ STL
-Big-O
+C++ Language
+     ↓
+Memory
+     ↓
+OOP
+     ↓
+Templates
+     ↓
+Modern C++
+     ↓
+Standard Library
+     ↓
+Tooling
+     ↓
+Systems / Applications
+```
+
+### `competitive-programming`
+
+**Solve problems with C++.**
+
+```text
+C++ + STL
+     ↓
+DSA
+     ↓
+Algorithms
+     ↓
+Mathematics
+     ↓
+Problem Solving
+     ↓
+Contests
+```
+
+The two repositories therefore complement each other without duplicating their primary learning paths.
+
+---
+
+# 📚 Resources
+
+### Competitive Programming
+
+* [Codeforces](https://codeforces.com/)
+* [CSES Problem Set](https://cses.fi/problemset/)
+* [AtCoder](https://atcoder.jp/)
+* [LeetCode](https://leetcode.com/)
+
+### Learning & Reference
+
+* [USACO Guide](https://usaco.guide/)
+* [CP-Algorithms](https://cp-algorithms.com/)
+* [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)
+* [Competitive Programming 4](https://cpbook.net/)
+
+These resources will be used selectively according to the current stage of the journey.
+
+---
+
+# 🎯 Long-Term Goal
+
+The first major objective is to build a strong foundation in algorithmic problem solving.
+
+I want to become comfortable with:
+
+```text
+Complexity Analysis
 Arrays
 Strings
 Hashing
 Prefix Sums
+Sorting
 Binary Search
 Two Pointers
 Sliding Window
@@ -537,66 +560,48 @@ Backtracking
 Greedy
 Number Theory
 Bit Manipulation
-DFS
-BFS
-Dijkstra
-DSU
-MST
+Graphs
 Trees
+DSU
+Shortest Paths
 Dynamic Programming
 Fenwick Tree
 Segment Tree
+Advanced Algorithms
 ```
 
-More importantly, I want to be able to approach an unfamiliar problem and ask:
+More importantly, I want to develop the ability to encounter an unfamiliar problem and ask:
 
-> **What information does the problem give me, what constraints does it impose, and what structure can I exploit?**
+> **What do the constraints tell me?**
 
----
+> **What structure does the problem have?**
 
-# 🔗 Related Repository
+> **What information actually matters?**
 
-My broader C++ learning journey:
+> **What can I eliminate?**
 
-**[⚙️ C++ Journey](https://github.com/ShahJabir/cpp-journey)**
-
-That repository focuses on C++ itself, modern C++, tooling, systems-level concepts, and different domains where C++ is used.
-
-This repository is intentionally separated from it so that Competitive Programming can have its own dedicated learning path, problem archive, and progression.
-
----
-
-# 📖 Resources
-
-* [Codeforces](https://codeforces.com/)
-* [CSES Problem Set](https://cses.fi/problemset/)
-* [AtCoder](https://atcoder.jp/)
-* [LeetCode](https://leetcode.com/)
-* [USACO Guide](https://usaco.guide/)
-* [CP-Algorithms](https://cp-algorithms.com/)
-* [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)
-* [Competitive Programming 4](https://cpbook.net/)
-
-USACO Guide maintains a broader curated list of competitive-programming resources, including CSES, CP-Algorithms, Codeforces Educational resources, KACTL, and other references.
+> **What algorithm or data structure fits the problem?**
 
 ---
 
 # 🚧 Status
 
-**Active — Learning in Progress**
+**Active — Work in Progress**
 
-This repository will continuously change.
+This repository represents an ongoing journey.
 
-Topics will be added as I learn them, solutions will improve as my understanding develops, and the structure will evolve when necessary.
+The code will improve.
 
-This is not a finished course.
+The notes will grow.
 
-It is a record of the journey.
+The algorithms will become more advanced.
+
+The contest results will change.
+
+And my problem-solving ability should improve along with them.
 
 ---
 
-## License
-
-Unless otherwise stated, the code and notes in this repository are provided for educational purposes.
+## 📜 License
 
 See [`LICENSE`](LICENSE) for the applicable license.
